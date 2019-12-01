@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body,#root,.App{
+    width: 100%;
+    height: 100%;
+}
+.SHopcar{
+    width: 100%;
+    height: 100%;
+
+}
+.CHange{
+background: #f00;
+color: red
+}
+.SHopcar .sitem{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: relative;
+}
+.sitem li{
+    flex: 2;
+    background: #f00;
+    
+}
+.sitem div span{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    border:1px solid #ccc;
+}
+.sitem div{
+    flex: 3;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.all{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+}
+.bianji{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.del{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+}
+h2{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.rshop{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.font{
+    color: red;
+    font-size: 18px;
+}
+.footer{
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    display: flex;
+}
+.detail button{
+    width: 100%;
+    height: 52px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer li{
+    flex: 1;
+}
+.shopcar .left{
+    flex: 1;
+    border-right: 1px solid #ccc;
+}
+.shopcar .right{
+    flex: 3;
+}
+.main .header{
+    width: 100%;
+    height: 40px;
+    background: #ccc;
+}
+.left li{
+    width: 100%;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+}
+.shopcar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.right{
+    overflow: hidden;
+}
+.active{
+    background: #f00;
+}
+.big{
+    width: 100%;
+    height: 100px;
+    background: skyblue;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+.pic{
+    width: 40px;
+    height: 40px;
+    background: purple;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+.contant{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.small{
+    width: 33%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.Header{
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background: #ccc;
+}
+.Shopcar{
+    display: flex;
+    flex-direction: column;
+}
+.everitem{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-bottom: 5px;
+}
+.everitem p{
+    flex: 3
+}
+.everitem li{
+    flex: 2;
+    background: pink;
+}
